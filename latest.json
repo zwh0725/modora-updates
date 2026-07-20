@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "appId": "modora-manager",
+  "channel": "stable",
+  "latest": {
+    "version": "0.1.19",
+    "title": "MODORA 0.1.19",
+    "publishedAt": "2026-07-21T00:00:00+08:00",
+    "mandatory": false,
+    "notes": [
+      "建立 MODORA 官方在线更新通道",
+      "当前版本不会触发重复更新提醒"
+    ],
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/latest"
+  }
+}
