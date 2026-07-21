@@ -3,15 +3,18 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.20",
-    "title": "MODORA 0.1.20",
-    "publishedAt": "2026-07-21T19:14:11+08:00",
+    "version": "0.1.21",
+    "title": "MODORA 0.1.21",
+    "publishedAt": "2026-07-22T00:00:00+08:00",
     "mandatory": false,
     "notes": [
-      "新增可开关的轻量实时 Mods 文件夹监控",
-      "批量复制完成后自动合并为一次同步，降低卡顿",
-      "修复 Mod 启停或重新扫描后预览图失效的问题"
+      "新增绝区零角色与其他类型 Mod 板块",
+      "接入绝区零角色目录和分类扫盘逻辑",
+      "支持自动检查更新、后台下载与确认安装"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.20"
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.21",
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.21/MODORA-0.1.21-preview-win-x64-20260722.zip",
+    "sha256": "f6c8e0464b3c221aa9f16de85a2597e7086a27f5634967853f5a844647c68ecc",
+    "assetSize": 267959335
   }
 }
