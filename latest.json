@@ -3,20 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.22",
-    "title": "MODORA 0.1.22",
-    "publishedAt": "2026-07-22T05:58:50+08:00",
+    "version": "0.1.23",
+    "title": "MODORA 0.1.23",
+    "publishedAt": "2026-07-22T19:00:00+08:00",
     "mandatory": false,
     "notes": [
-      "开放绝区零（ZZMI）角色与其他类型 Mod 管理",
-      "修复绝区零路径有效但扫描不到 Mod 的问题",
-      "兼容 JASM 角色目录、深层嵌套目录和香蕉网常见分类命名",
-      "新增绝区零统一角色壁纸，并支持一键应用到全部角色",
-      "支持后台下载、校验并安装后续更新"
+      "修复 ZZMI/JASM 角色目录被整体识别为单个 Mod",
+      "修复 gliders 等目录被错误归类到角色",
+      "完善绝区零 UI、音擎和 NPC 自动归类",
+      "修复 Windows 文件占用导致的启停和移动失败",
+      "调整设置页面文字大小"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.22",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.22/MODORA-0.1.22-preview-win-x64-20260722.zip",
-    "sha256": "071f3e04086d682a75d4638dcc3bab009471328cc30e1ca8eb3a3ed4b53853aa",
-    "assetSize": 270993364
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.23",
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.23/MODORA-0.1.23-preview-win-x64-20260722.zip",
+    "sha256": "2a8e5597cbd35dec9f7ea7bf3c8f715cc3c0b7e9e94c6a0a0610acf6bf2e98a9",
+    "assetSize": 272990560
   }
 }
