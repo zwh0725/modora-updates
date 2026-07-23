@@ -3,20 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.23",
-    "title": "MODORA 0.1.23",
-    "publishedAt": "2026-07-22T19:00:00+08:00",
+    "version": "0.1.24",
+    "title": "MODORA 0.1.24",
+    "publishedAt": "2026-07-23T12:54:07+08:00",
     "mandatory": false,
     "notes": [
-      "修复 ZZMI/JASM 角色目录被整体识别为单个 Mod",
-      "修复 gliders 等目录被错误归类到角色",
-      "完善绝区零 UI、音擎和 NPC 自动归类",
-      "修复 Windows 文件占用导致的启停和移动失败",
-      "调整设置页面文字大小"
+      "新增终末地角色与其他类型 Mod 分类",
+      "新增主题商店、主题预览与一键应用",
+      "新增多款治愈日系与国风古韵主题",
+      "优化在线 Mod 商店和主题商店的背景融合",
+      "优化终末地横幅、侧栏图标和界面细节"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.23",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.23/MODORA-0.1.23-preview-win-x64-20260722.zip",
-    "sha256": "2a8e5597cbd35dec9f7ea7bf3c8f715cc3c0b7e9e94c6a0a0610acf6bf2e98a9",
-    "assetSize": 272990560
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.24",
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.24/MODORA-0.1.24-preview-win-x64-20260723.zip",
+    "sha256": "77dff7801b2d79671ce426a6c5c7aa11ec8a5bb98545f7ee046767a6fc311de7",
+    "assetSize": 320491897
   }
 }
