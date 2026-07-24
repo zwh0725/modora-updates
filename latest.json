@@ -17,8 +17,8 @@
       "优化在线 Mod 卡片和详细预览界面"
     ],
     "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.25",
-   "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.25/MODORA-0.1.25-compat-update-win-x64.zip",
-"sha256": "c0eb38be80bfb29c04c0790587e4ed931862af23e50ce4d050ff986d5bf010f5",
-"assetSize": 321203644
+   "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.25/MODORA-0.1.25-compat-update-win-x64-fixed.zip",
+"sha256": "bd18de9cdcc46611d307743972b15274ef6276eb1afbc462e1ee680f0e7c486a",
+"assetSize": 321204759
   }
 }
