@@ -10,7 +10,7 @@
     "notes": [
       "修复 Windows 旧更新器解压后找不到 resources/app.asar 的问题",
       "完整程序包已修正全部中文文件名的 UTF-8 标记",
-      "旧版本请从发布页下载一键修复更新器 v2"
+      "旧版本请从发布页下载一键修复更新器 v3"
     ],
     "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.28",
     "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.28/MODORA-0.1.28-preview-win-x64-utf8.zip",
