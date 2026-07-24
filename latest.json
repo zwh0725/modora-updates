@@ -9,12 +9,12 @@
     "mandatory": false,
     "notes": [
       "修复 Windows 旧更新器解压后找不到 resources/app.asar 的问题",
-      "新增 Windows 自带解压备用方案，后续热更新会自动切换",
-      "旧版本若仍失败，请从发布页下载一键修复更新器"
+      "完整程序包已修正全部中文文件名的 UTF-8 标记",
+      "旧版本请从发布页下载一键修复更新器 v2"
     ],
     "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.28",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.28/MODORA-0.1.28-preview-win-x64-20260724.zip",
-    "sha256": "96d1a5f2f3874bf3467a7d3ef5531b9158c4c638d444980e6be9898e513be0ef",
-    "assetSize": 321299615
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.28/MODORA-0.1.28-preview-win-x64-utf8.zip",
+    "sha256": "fa8282c85a94ffac3211342b25c033f44a996671b725511a4e445e882950e774",
+    "assetSize": 317107067
   }
 }
