@@ -3,19 +3,19 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.33",
-    "title": "MODORA 0.1.33",
-    "publishedAt": "2026-07-24T23:54:00+08:00",
+    "version": "0.1.34",
+    "title": "MODORA 0.1.34",
+    "publishedAt": "2026-07-25T00:29:22+08:00",
     "mandatory": false,
     "notes": [
-      "验证 0.1.32 新更新器可直接完成软件内自动更新",
-      "通过 EncodedCommand 启动独立安装程序",
-      "绕过 Windows 脚本执行策略拦截",
-      "保留更新包校验、安装日志、健康检查和失败回滚"
+      "修复独立安装程序在创建就绪标记前退出的问题",
+      "将 PowerShell 启动输出与安装日志彻底分离",
+      "启动失败时保留并显示具体错误",
+      "保留更新包校验、健康检查和失败回滚"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.33",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.33/MODORA-0.1.33-update-win-x64.zip",
-    "sha256": "b9a3948130508ec470c1ec2671ea66848d053d2b9d6e3e74f66d861aca27a138",
-    "assetSize": 317177320
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.34",
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.34/MODORA-0.1.34-update-win-x64.zip",
+    "sha256": "18d3872530b7aaf22730b6d85cbb5990bfd5b5b28a4fce0f16a4077bfc51e388",
+    "assetSize": 317109083
   }
 }
