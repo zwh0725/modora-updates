@@ -8,14 +8,14 @@
     "publishedAt": "2026-07-24T21:24:00+08:00",
     "mandatory": false,
     "notes": [
-      "使用 Electron original-fs 检查真实的 resources/app.asar",
-      "修复 app.asar 被当成虚拟目录而误报缺失的问题",
-      "增加更新器版本标记和失败诊断日志",
-      "保留 SHA256 校验、启动健康检查与失败回滚"
+      "修复关闭程序后残留进程占用安装目录的问题",
+      "安装前确认独立更新程序已成功启动",
+      "增加永久安装日志和安全回滚记录",
+      "继续使用 original-fs 检查真实的 resources/app.asar"
     ],
     "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.30",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.30/MODORA-0.1.30-update-win-x64.zip",
-    "sha256": "e6556a89dc593892389f5ed21bb43653d0e47e95ed465efa49017a89894e32fe",
-    "assetSize": 317107675
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.30/MODORA-0.1.30-update-win-x64-v2.zip",
+    "sha256": "fad26b492b03adf1f0e0e2628090d3ff7097dc47a3d2d6a3cc5bbda109927f0f",
+    "assetSize": 317108424
   }
 }
