@@ -3,19 +3,19 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.30",
-    "title": "MODORA 0.1.30",
-    "publishedAt": "2026-07-24T21:24:00+08:00",
+    "version": "0.1.31",
+    "title": "MODORA 0.1.31",
+    "publishedAt": "2026-07-24T22:49:00+08:00",
     "mandatory": false,
     "notes": [
-      "修复关闭程序后残留进程占用安装目录的问题",
-      "安装前确认独立更新程序已成功启动",
-      "增加永久安装日志和安全回滚记录",
-      "继续使用 original-fs 检查真实的 resources/app.asar"
+      "使用 0.1.30 内置的 v2 独立更新器执行安装",
+      "安装前确认独立安装程序已成功启动",
+      "关闭旧程序后清理残留进程",
+      "增加永久安装日志和安全回滚记录"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.30",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.30/MODORA-0.1.30-update-win-x64-v2.zip",
-    "sha256": "fad26b492b03adf1f0e0e2628090d3ff7097dc47a3d2d6a3cc5bbda109927f0f",
-    "assetSize": 317108424
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.31",
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.31/MODORA-0.1.31-update-win-x64.zip",
+    "sha256": "27d78cb8bd1d7e30bce5c299d1cc57e81f5afd5d2b3647e37ee05ade17830941",
+    "assetSize": 317176863
   }
 }
