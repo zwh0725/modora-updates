@@ -3,22 +3,18 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.25",
-    "title": "MODORA 0.1.25",
-    "publishedAt": "2026-07-24T14:12:00+08:00",
+    "version": "0.1.26",
+    "title": "MODORA 0.1.26",
+    "publishedAt": "2026-07-24T16:56:00+08:00",
     "mandatory": false,
     "notes": [
-      "修复切换主题后界面始终显示黑色的问题",
-      "修复 Mod 名称中的小数版本号被截断的问题",
-      "接入云端主题商店和主题热更新",
-      "完善在线 Mod 商店的安装状态与版本检测",
-      "支持在线 Mod 下载、SHA256 校验、解压和自动导入",
-      "支持旧 Mod 更新替换以及安装失败回滚",
-      "优化在线 Mod 卡片和详细预览界面"
+      "用于验证从 0.1.25 自动下载、校验、解压、安装与重启流程",
+      "保留 0.1.25 的全部功能和修复",
+      "更新程序已加入解压后重试、完整程序检查和失败回滚"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.25",
-   "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.25/MODORA-0.1.25-compat-update-win-x64-fixed.zip",
-"sha256": "bd18de9cdcc46611d307743972b15274ef6276eb1afbc462e1ee680f0e7c486a",
-"assetSize": 321204759
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.26",
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.26/MODORA-0.1.26-update-win-x64.zip",
+    "sha256": "0761960ca4bf7f32661f6e8e5acd73475986b5555b32873d564b7f766a8a0068",
+    "assetSize": 321204762
   }
 }
