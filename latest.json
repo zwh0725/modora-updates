@@ -3,18 +3,18 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.26",
-    "title": "MODORA 0.1.26",
-    "publishedAt": "2026-07-24T16:56:00+08:00",
+    "version": "0.1.27",
+    "title": "MODORA 0.1.27",
+    "publishedAt": "2026-07-24T18:15:46+08:00",
     "mandatory": false,
     "notes": [
-      "用于验证从 0.1.25 自动下载、校验、解压、安装与重启流程",
-      "保留 0.1.25 的全部功能和修复",
-      "更新包已改为小型启动文件与展开资源，兼容旧版解压器"
+      "修复 0.1.23 之后大型 app.asar 导致自动更新无法完成的问题",
+      "改用 Electron 标准展开资源结构，兼容旧版更新器",
+      "已用旧版同款 7-Zip 完整解压验证"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.26",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.26/MODORA-0.1.26-update-win-x64-split.zip",
-    "sha256": "425a3bca409cea43c47de192a53979af8dcde120bda7ae68603379297e3e45bd",
-    "assetSize": 321266910
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.27",
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.27/MODORA-0.1.27-update-win-x64.zip",
+    "sha256": "73e89d32e1794502c1145973e283cd51cd6018fc0ade518df8eb2eb8621d2a53",
+    "assetSize": 321477472
   }
 }
