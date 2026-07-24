@@ -13,8 +13,8 @@
       "更新程序已加入解压后重试、完整程序检查和失败回滚"
     ],
     "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.26",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.26/MODORA-0.1.26-update-win-x64.zip",
-    "sha256": "0761960ca4bf7f32661f6e8e5acd73475986b5555b32873d564b7f766a8a0068",
-    "assetSize": 321204762
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.26/MODORA-0.1.26-update-win-x64-stored.zip",
+    "sha256": "467b22760970aec455c5208a6a6a2e0afe3143882d05c1ec64a16a63dbc62cec",
+    "assetSize": 322643165
   }
 }
