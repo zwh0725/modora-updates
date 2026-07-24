@@ -3,17 +3,22 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.23",
-    "title": "MODORA 0.1.23",
-    "publishedAt": "2026-07-22T19:00:00+08:00",
+    "version": "0.1.25",
+    "title": "MODORA 0.1.25",
+    "publishedAt": "2026-07-24T14:12:00+08:00",
     "mandatory": false,
     "notes": [
-      "修复 ZZMI/JASM 角色目录被整体识别为单个 Mod",
-      "修复 gliders 等目录被错误归类到角色",
-      "完善绝区零 UI、音擎和 NPC 自动归类",
-      "修复 Windows 文件占用导致的启停和移动失败",
-      "调整设置页面文字大小"
+      "修复切换主题后界面始终显示黑色的问题",
+      "修复 Mod 名称中的小数版本号被截断的问题",
+      "接入云端主题商店和主题热更新",
+      "完善在线 Mod 商店的安装状态与版本检测",
+      "支持在线 Mod 下载、SHA256 校验、解压和自动导入",
+      "支持旧 Mod 更新替换以及安装失败回滚",
+      "优化在线 Mod 卡片和详细预览界面"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.23",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.23/MODORA-0.1.23-preview-win-x64-20260722.zip",
-    "sha256": "2a8e5597cbd35dec9f7ea7bf3c8f715cc3c0b7e9e94c6a0a0610
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.25",
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.25/MODORA-0.1.25-update-win-x64.zip",
+    "sha256": "bc537b25e24c291f32ed6f0e4d882b07ec75f36dc9c39cc1731d8a07da700130",
+    "assetSize": 321203644
+  }
+}
