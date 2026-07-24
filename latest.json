@@ -3,18 +3,19 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.29",
-    "title": "MODORA 0.1.29",
-    "publishedAt": "2026-07-24T20:01:00+08:00",
+    "version": "0.1.30",
+    "title": "MODORA 0.1.30",
+    "publishedAt": "2026-07-24T21:24:00+08:00",
     "mandatory": false,
     "notes": [
-      "测试从 0.1.28 直接进行软件内自动更新",
-      "更新包已包含完整 MODORA 程序文件",
-      "更新包中文路径已统一使用 UTF-8 标记"
+      "使用 Electron original-fs 检查真实的 resources/app.asar",
+      "修复 app.asar 被当成虚拟目录而误报缺失的问题",
+      "增加更新器版本标记和失败诊断日志",
+      "保留 SHA256 校验、启动健康检查与失败回滚"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.29",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.29/MODORA-0.1.29-update-win-x64.zip",
-    "sha256": "f1c4438aec8dd59e8ec681d2e96654201231a2f51cd34b2bb62e7464117ba768",
-    "assetSize": 317265596
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.30",
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.30/MODORA-0.1.30-update-win-x64.zip",
+    "sha256": "e6556a89dc593892389f5ed21bb43653d0e47e95ed465efa49017a89894e32fe",
+    "assetSize": 317107675
   }
 }
