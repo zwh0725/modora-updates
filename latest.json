@@ -10,11 +10,11 @@
     "notes": [
       "用于验证从 0.1.25 自动下载、校验、解压、安装与重启流程",
       "保留 0.1.25 的全部功能和修复",
-      "更新程序已加入解压后重试、完整程序检查和失败回滚"
+      "更新包已改为小型启动文件与展开资源，兼容旧版解压器"
     ],
     "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.26",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.26/MODORA-0.1.26-update-win-x64-stored.zip",
-    "sha256": "467b22760970aec455c5208a6a6a2e0afe3143882d05c1ec64a16a63dbc62cec",
-    "assetSize": 322643165
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.26/MODORA-0.1.26-update-win-x64-split.zip",
+    "sha256": "425a3bca409cea43c47de192a53979af8dcde120bda7ae68603379297e3e45bd",
+    "assetSize": 321266910
   }
 }
