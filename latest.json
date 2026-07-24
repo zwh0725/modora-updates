@@ -3,19 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.34",
-    "title": "MODORA 0.1.34",
-    "publishedAt": "2026-07-25T00:29:22+08:00",
+    "version": "0.1.36",
+    "title": "MODORA 0.1.36",
+    "publishedAt": "2026-07-25T02:27:54+08:00",
     "mandatory": false,
     "notes": [
-      "修复独立安装程序在创建就绪标记前退出的问题",
-      "将 PowerShell 启动输出与安装日志彻底分离",
-      "启动失败时保留并显示具体错误",
-      "保留更新包校验、健康检查和失败回滚"
+      "改用标准 Windows 安装程序",
+      "更新安装程序会先完成大小与 SHA-256 校验",
+      "安装失败时继续保留当前已安装版本",
+      "增加更新日志和安装结果确认"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.34",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.34/MODORA-0.1.34-update-win-x64.zip",
-    "sha256": "18d3872530b7aaf22730b6d85cbb5990bfd5b5b28a4fce0f16a4077bfc51e388",
-    "assetSize": 317109083
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.36",
+    "assetType": "nsis",
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.36/MODORA-Setup-0.1.36-x64.exe",
+    "sha256": "e17d0a1d39adffa14396294852e0ac59a6d06a27c718a45d8975bf34ad2aff25",
+    "assetSize": 274329162
   }
 }
