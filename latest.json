@@ -3,20 +3,21 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.37",
-    "title": "MODORA 0.1.37",
-    "publishedAt": "2026-07-25T16:37:31+08:00",
+    "version": "0.1.38",
+    "title": "MODORA 0.1.38",
+    "publishedAt": "2026-07-25T20:28:00+08:00",
     "mandatory": false,
     "notes": [
-      "首次安装支持选择安装位置",
-      "软件内更新自动沿用原安装路径",
-      "软件内更新使用静默安装，不重复弹出路径向导",
-      "保留下载大小和 SHA-256 完整性校验"
+      "角色目录迁移至 Cloudflare Worker + D1",
+      "鸣潮、绝区零、终末地角色支持云端热更新",
+      "新角色默认可置顶，云端数据支持离线缓存",
+      "在线 Mod 商店与主题商店接口保持兼容",
+      "首次安装可选择路径，后续更新沿用原安装位置"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.37",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.38",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.37/MODORA-Setup-0.1.37-x64.exe",
-    "sha256": "a4de9e0030a787d1028cec9b7fc2f6727a97eadbd1a685bc8b336e94794f4f2b",
-    "assetSize": 274391416
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.38/MODORA-Setup-0.1.38-x64.exe",
+    "sha256": "d7107747e8ca46658d0687f0ee4049d35cc367dd52d1acfb95963ba0eda40f9f",
+    "assetSize": 274391673
   }
 }
