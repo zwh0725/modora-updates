@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "gameId": "wuwa",
+  "revision": 1,
+  "publishedAt": "2026-07-25T00:00:00+08:00",
+  "characters": [
+    {
+      "id": "cloud-test-character",
+      "name": "测试用",
+      "englishName": "1234",
+      "folderName": "1234",
+      "aliases": [
+        "测试用",
+        "1234"
+      ],
+      "element": "",
+      "accent": "#9ee86b",
+      "sortOrder": 9999,
+      "image": "",
+      "imagePosition": "50% 50%",
+      "heroImage": "",
+      "heroPosition": "50% 50%"
+    }
+  ]
+}
