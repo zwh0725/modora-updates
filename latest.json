@@ -3,21 +3,21 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.38",
-    "title": "MODORA 0.1.38",
-    "publishedAt": "2026-07-25T20:28:00+08:00",
+    "version": "0.1.39",
+    "title": "MODORA 0.1.39",
+    "publishedAt": "2026-07-25T21:47:25+08:00",
     "mandatory": false,
     "notes": [
-      "角色目录迁移至 Cloudflare Worker + D1",
-      "鸣潮、绝区零、终末地角色支持云端热更新",
-      "新角色默认可置顶，云端数据支持离线缓存",
-      "在线 Mod 商店与主题商店接口保持兼容",
+      "修复 Windows 正式版主题商店无法连接云端的问题",
+      "主题清单与壁纸改由主程序安全代理读取",
+      "修复在线 Mod 商店列表与封面的正式版云端加载",
+      "新增云端主题热更新验证",
       "首次安装可选择路径，后续更新沿用原安装位置"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.38",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.39",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.38/MODORA-Setup-0.1.38-x64.exe",
-    "sha256": "d7107747e8ca46658d0687f0ee4049d35cc367dd52d1acfb95963ba0eda40f9f",
-    "assetSize": 274391673
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.39/MODORA-Setup-0.1.39-x64.exe",
+    "sha256": "afc84decfdd769d823b4919af1a07f8d96c8018459323fbfffa1690c6f2c95eb",
+    "assetSize": 274392056
   }
 }
