@@ -3,20 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.36",
-    "title": "MODORA 0.1.36",
-    "publishedAt": "2026-07-25T02:27:54+08:00",
+    "version": "0.1.37",
+    "title": "MODORA 0.1.37",
+    "publishedAt": "2026-07-25T16:37:31+08:00",
     "mandatory": false,
     "notes": [
-      "改用标准 Windows 安装程序",
-      "更新安装程序会先完成大小与 SHA-256 校验",
-      "安装失败时继续保留当前已安装版本",
-      "增加更新日志和安装结果确认"
+      "首次安装支持选择安装位置",
+      "软件内更新自动沿用原安装路径",
+      "软件内更新使用静默安装，不重复弹出路径向导",
+      "保留下载大小和 SHA-256 完整性校验"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.36",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.37",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.36/MODORA-Setup-0.1.36-x64.exe",
-    "sha256": "e17d0a1d39adffa14396294852e0ac59a6d06a27c718a45d8975bf34ad2aff25",
-    "assetSize": 274329162
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.37/MODORA-Setup-0.1.37-x64.exe",
+    "sha256": "a4de9e0030a787d1028cec9b7fc2f6727a97eadbd1a685bc8b336e94794f4f2b",
+    "assetSize": 274391416
   }
 }
