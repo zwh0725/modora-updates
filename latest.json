@@ -3,23 +3,22 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.40",
-    "title": "MODORA 0.1.40",
-    "publishedAt": "2026-07-26T12:25:18+08:00",
+    "version": "0.1.41",
+    "title": "MODORA 0.1.41",
+    "publishedAt": "2026-07-27T00:43:48+08:00",
     "mandatory": false,
     "notes": [
-      "新增 Mod 批量选择、全选与确认删除",
-      "角色支持多个置顶并可取消置顶，置顶顺序按游戏保存",
-      "优化 Mod 商店滚动条、更新提示、卡片与详情页字号",
-      "修复修改 Mod 名称后重启失效的问题",
-      "在线 Mod 安装完成后继续停留在商店",
-      "统一终末地角色页壁纸，并优化主题商店卡片对齐",
-      "精简右键菜单，新增按键名称自动翻译设置"
+      "开放星穹铁道管理板块，加入完整角色名单与分类",
+      "新增角色拖拽排序、拖动动画及边缘自动滚动",
+      "更新星穹铁道头像、角色壁纸定位和板块图标",
+      "优化全部游戏选择小卡片的图片清晰度",
+      "统一“Mod 商店”命名并补充角色、主题及其他类型图标",
+      "扩充其他类型 Mod 分类，加入功能性、光锥、UI 和怪物"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.40",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.41",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.40/MODORA-Setup-0.1.40-x64.exe",
-    "sha256": "a68b59a1e52ed5dc258c08bcd4b9d7f4ec4828320a4a05c1a00f95098298edc7",
-    "assetSize": 274396264
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.41/MODORA-Setup-0.1.41-x64.exe",
+    "sha256": "8fce30154b1d0d91b95a0ee6fb79498c484c1ef20a5314ffdeeba157dfc995e2",
+    "assetSize": 283355350
   }
 }
