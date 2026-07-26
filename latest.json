@@ -3,21 +3,23 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.39",
-    "title": "MODORA 0.1.39",
-    "publishedAt": "2026-07-25T21:47:25+08:00",
+    "version": "0.1.40",
+    "title": "MODORA 0.1.40",
+    "publishedAt": "2026-07-26T12:25:18+08:00",
     "mandatory": false,
     "notes": [
-      "修复 Windows 正式版主题商店无法连接云端的问题",
-      "主题清单与壁纸改由主程序安全代理读取",
-      "修复在线 Mod 商店列表与封面的正式版云端加载",
-      "新增云端主题热更新验证",
-      "首次安装可选择路径，后续更新沿用原安装位置"
+      "新增 Mod 批量选择、全选与确认删除",
+      "角色支持多个置顶并可取消置顶，置顶顺序按游戏保存",
+      "优化 Mod 商店滚动条、更新提示、卡片与详情页字号",
+      "修复修改 Mod 名称后重启失效的问题",
+      "在线 Mod 安装完成后继续停留在商店",
+      "统一终末地角色页壁纸，并优化主题商店卡片对齐",
+      "精简右键菜单，新增按键名称自动翻译设置"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.39",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.40",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.39/MODORA-Setup-0.1.39-x64.exe",
-    "sha256": "afc84decfdd769d823b4919af1a07f8d96c8018459323fbfffa1690c6f2c95eb",
-    "assetSize": 274392056
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.40/MODORA-Setup-0.1.40-x64.exe",
+    "sha256": "a68b59a1e52ed5dc258c08bcd4b9d7f4ec4828320a4a05c1a00f95098298edc7",
+    "assetSize": 274396264
   }
 }
