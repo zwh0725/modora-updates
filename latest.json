@@ -3,22 +3,22 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.53",
-    "title": "MODORA 0.1.53",
-    "publishedAt": "2026-07-27T21:36:52+08:00",
+    "version": "0.1.54",
+    "title": "MODORA 0.1.54",
+    "publishedAt": "2026-07-28T03:36:43+08:00",
     "mandatory": false,
     "notes": [
-      "异环 Mod 仓库优先迁移到游戏同一磁盘，恢复真正的同盘硬链接部署",
-      "自动迁移旧 C 盘异环仓库，保留已有 Mod 与启用状态",
-      "扩展异环 PAK / UCAS / UTOC 切换键识别",
-      "新增数字键、符号键及可靠字母键识别，降低误报",
-      "关闭原神板块并保留后续开放入口",
+      "修复异环旧版或异常状态遗留的 MODORA 硬链接部署文件",
+      "不完整的 PAK、UCAS、UTOC 文件组会自动清理失效状态",
+      "无归属部署文件移入恢复目录，不触碰游戏原文件和 Mod 仓库",
+      "角色 Mod 展开列表改为独立滚动，其他管理入口始终可见",
+      "保持异环多 Mod、同名容器和硬链接部署兼容",
       "本版本启用代码混淆保护"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.53",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.54",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.53/MODORA-Setup-0.1.53-x64.exe",
-    "sha256": "d977b9333aec273994880d17348c9e4b57e8dbd9b6914b9bdfcefedc24dcd8b9",
-    "assetSize": 287401324
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.54/MODORA-Setup-0.1.54-x64.exe",
+    "sha256": "01e9b378d31c003f676a17b17ece3955f8a3d9d1f7a726719a3ad400adf19b27",
+    "assetSize": 287412140
   }
 }
