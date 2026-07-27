@@ -3,23 +3,22 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.51",
-    "title": "MODORA 0.1.51",
-    "publishedAt": "2026-07-27T07:07:37+08:00",
+    "version": "0.1.53",
+    "title": "MODORA 0.1.53",
+    "publishedAt": "2026-07-27T21:36:52+08:00",
     "mandatory": false,
     "notes": [
-      "开放异环 Mod 管理板块，支持 Paks / ~mods 目录",
-      "新增异环 21 个角色、角色头像与专属板块图标",
-      "新增异环 PAK 硬链接部署、同角色单 Mod 切换及多角色同时启用",
-      "优化受保护游戏目录授权、写入检查和旧部署自动恢复",
-      "支持 ZIP、7Z、RAR 拖放导入，换用完整 RAR5 解压组件",
-      "支持异环 Mod 切换键识别与修改，包括 Slash（/）按键",
-      "修复内部同名 PAK 冲突、手动替换残留和部分 Mod 无法重新启用"
+      "异环 Mod 仓库优先迁移到游戏同一磁盘，恢复真正的同盘硬链接部署",
+      "自动迁移旧 C 盘异环仓库，保留已有 Mod 与启用状态",
+      "扩展异环 PAK / UCAS / UTOC 切换键识别",
+      "新增数字键、符号键及可靠字母键识别，降低误报",
+      "关闭原神板块并保留后续开放入口",
+      "本版本启用代码混淆保护"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.51",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.53",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.51/MODORA-Setup-0.1.51-x64.exe",
-    "sha256": "1281ba8f8177cfc99b708cd9199060d0be5aa1f88d369be54bfc04e6d2e59b9a",
-    "assetSize": 287274703
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.53/MODORA-Setup-0.1.53-x64.exe",
+    "sha256": "d977b9333aec273994880d17348c9e4b57e8dbd9b6914b9bdfcefedc24dcd8b9",
+    "assetSize": 287401324
   }
 }
