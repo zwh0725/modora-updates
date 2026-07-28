@@ -3,22 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.54",
-    "title": "MODORA 0.1.54",
-    "publishedAt": "2026-07-28T03:36:43+08:00",
+    "version": "0.1.55",
+    "title": "MODORA 0.1.55",
+    "publishedAt": "2026-07-28T21:59:17+08:00",
     "mandatory": false,
     "notes": [
-      "修复异环旧版或异常状态遗留的 MODORA 硬链接部署文件",
-      "不完整的 PAK、UCAS、UTOC 文件组会自动清理失效状态",
-      "无归属部署文件移入恢复目录，不触碰游戏原文件和 Mod 仓库",
-      "角色 Mod 展开列表改为独立滚动，其他管理入口始终可见",
-      "保持异环多 Mod、同名容器和硬链接部署兼容",
-      "本版本启用代码混淆保护"
+      "修复桌面版顶部“切换游戏”按钮被窗口拖拽区域覆盖、无法点击的问题",
+      "已配置路径的游戏可直接切换，未配置路径的游戏会进入路径设置",
+      "保持鸣潮、绝区零、星穹铁道、异环等现有板块数据与功能不变",
+      "本版本继续启用代码混淆保护"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.54",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.55",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.54/MODORA-Setup-0.1.54-x64.exe",
-    "sha256": "01e9b378d31c003f676a17b17ece3955f8a3d9d1f7a726719a3ad400adf19b27",
-    "assetSize": 287412140
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.55/MODORA-Setup-0.1.55-x64.exe",
+    "sha256": "40306ec8d29896caf4ce46a1ffeaf2f75f9a6e7e066c2ffda26e19e21687b537",
+    "assetSize": 300930693
   }
 }
