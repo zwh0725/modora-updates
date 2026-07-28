@@ -3,22 +3,22 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.54",
-    "title": "MODORA 0.1.54",
-    "publishedAt": "2026-07-28T03:36:43+08:00",
+    "version": "1.0.0",
+    "title": "MODORA 1.0.0 正式版",
+    "publishedAt": "2026-07-28T12:28:24+08:00",
     "mandatory": false,
     "notes": [
-      "修复异环旧版或异常状态遗留的 MODORA 硬链接部署文件",
-      "不完整的 PAK、UCAS、UTOC 文件组会自动清理失效状态",
-      "无归属部署文件移入恢复目录，不触碰游戏原文件和 Mod 仓库",
-      "角色 Mod 展开列表改为独立滚动，其他管理入口始终可见",
-      "保持异环多 Mod、同名容器和硬链接部署兼容",
-      "本版本启用代码混淆保护"
+      "MODORA 首个正式版本，开放完整多游戏 Mod 管理体验",
+      "支持角色 Mod、其他类型 Mod、在线 Mod 商店与主题商店",
+      "异环支持 PAK/IoStore、多 Mod、硬链接部署与权限修复",
+      "新增角色皮肤分类、拼音搜索、主题透明度与游戏快速切换",
+      "改进云端内容同步、压缩包导入和 Mod 切换键识别",
+      "正式版本启用代码保护"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.54",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v1.0.0",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.54/MODORA-Setup-0.1.54-x64.exe",
-    "sha256": "01e9b378d31c003f676a17b17ece3955f8a3d9d1f7a726719a3ad400adf19b27",
-    "assetSize": 287412140
+    "assetUrl": "https://modora-store-api.zhengwenhui0725.workers.dev/assets/releases/v1.0.0/MODORA-Setup-1.0.0-x64.exe",
+    "sha256": "10b57236d2f8ac7211e4d0d6b84455c8756f56bcea364c50b469663d2a872a41",
+    "assetSize": 300931161
   }
 }
