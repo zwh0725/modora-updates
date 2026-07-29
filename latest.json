@@ -3,23 +3,23 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.56",
-    "title": "MODORA 0.1.56",
-    "publishedAt": "2026-07-29T04:08:31+08:00",
+    "version": "0.1.64",
+    "title": "MODORA 0.1.64",
+    "publishedAt": "2026-07-29T11:38:12+08:00",
     "mandatory": false,
     "notes": [
-      "原神板块正式开放，内置 119 位角色头像，并支持 GIMI 英文目录识别",
-      "新增原神功能性、怪物、UI、武器分类，支持中英文、大小写及常见别名自动归类",
-      "优化 MOD 详情侧栏：默认收起，选择 MOD 时从右侧丝滑滑入，切换分类后自动关闭",
-      "更新原神头像、分类图标和周年壁纸，统一所有游戏角色头像的白色背景",
-      "修复右键菜单透明、深色主题广告火箭不可见等界面问题",
-      "包含角色皮肤移动、主题透明度与 RabbitFX 扫描保留等稳定性改进",
+      "新增可选的自动同步：同一角色仅启用一个 Mod，启用或停用后立即切回游戏并发送 F10",
+      "优化 F10 同步兼容性：管理器可保持普通权限运行，需要时仅由辅助程序请求一次 Windows 授权",
+      "补充绝区零、崩坏：星穹铁道、原神的官方皮肤头像与皮肤归类",
+      "修复 Phrolova、floro 等文件夹别名无法正确归类到弗洛洛的问题",
+      "修复部分新上架 Mod 因下载文件或校验信息缺失而无法安装的问题",
+      "精简 Mod 详情关闭操作和按键绑定区域，优化头像白底、深色图标、右键菜单及更新弹窗可读性",
       "本版本继续启用代码混淆保护"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.56",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.64",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.56/MODORA-Setup-0.1.56-x64.exe",
-    "sha256": "f08ff52a8f9298fcdd8a99f7baead330d157f7cacfe2523e7e9936778f5a7aea",
-    "assetSize": 314742468
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.64/MODORA-Setup-0.1.64-x64.exe",
+    "sha256": "23c69bd4883e192e9a80fde82e40866c27c0852a2c2cafe714ba8fa66f31da9c",
+    "assetSize": 327797204
   }
 }
