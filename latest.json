@@ -3,22 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.67",
-    "title": "MODORA 0.1.67",
-    "publishedAt": "2026-07-30T06:29:39Z",
+    "version": "0.1.68",
+    "title": "MODORA 0.1.68",
+    "publishedAt": "2026-07-30T06:54:02Z",
     "mandatory": false,
     "notes": [
-      "新增“神里美如画”4K 60 FPS 无缝循环动态主题",
-      "主题商店新增动态壁纸分类与视频壁纸播放支持",
-      "新增锁定 Mod 预设，启用时自动恢复并发送 F10",
-      "手动移动过分类的 Mod 不再被后续扫描自动挪走",
-      "右键菜单支持从剪贴板粘贴常见格式的 Mod 预览图",
-      "优化自动同步、游戏切换与各游戏启动器名称"
+      "修复“神里美如画”在 Windows 正式版中只显示静态封面的问题",
+      "自定义协议支持 MP4 字节范围请求与连续流式播放",
+      "保留 3840×2160、60 FPS、24 秒无缝循环原视频",
+      "动态主题继续保持静音自动播放与循环"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.67",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.68",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.67/MODORA-Setup-0.1.67-x64.exe",
-    "sha256": "a89c0873f2be510ff79e3bd29ce2ed50fc1987f4c784697e5354702aa297d7fd",
-    "assetSize": 437448268
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.68/MODORA-Setup-0.1.68-x64.exe",
+    "sha256": "7e878564ae1912af4b5474f2737ee9d9bbe2ed756384e3199f3691b75c3ca405",
+    "assetSize": 437449221
   }
 }
