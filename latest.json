@@ -3,20 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.69",
-    "title": "MODORA 0.1.69",
-    "publishedAt": "2026-07-30T08:01:36Z",
+    "version": "0.1.70",
+    "title": "MODORA 0.1.70",
+    "publishedAt": "2026-07-30T08:32:17Z",
     "mandatory": false,
     "notes": [
-      "修复部分 Windows 设备安装后启动时报 details 未定义的问题",
-      "动态主题改为云端按需加载，保留动态效果并将安装程序缩小约 196 MB",
-      "恢复并支持“神里美如画”“囍”和互动分层壁纸的云端播放",
-      "完善云端视频字节范围播放与 MOD 锁定预设自动恢复"
+      "修复动态主题应用后只显示静态封面的问题",
+      "动态视频与互动分层资源首次使用时下载到本地，后续直接从缓存播放",
+      "下载完成后校验文件大小和 SHA-256，避免损坏资源被应用",
+      "主题商店显示“下载并应用”与实时下载百分比，同时继续保持精简安装包"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.69",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.70",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.69/MODORA-Setup-0.1.69-x64.exe",
-    "sha256": "0e4348310a61caaa7eb040ebf7a7695ce89ddb047e8069f95c329107caa28f55",
-    "assetSize": 343430754
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.70/MODORA-Setup-0.1.70-x64.exe",
+    "sha256": "5152ce07e7df38748bd36620228e88bc60e6c1a64dfa54f6463a777cfff7b4fa",
+    "assetSize": 343431800
   }
 }
