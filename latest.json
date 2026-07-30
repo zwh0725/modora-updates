@@ -3,23 +3,22 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.64",
-    "title": "MODORA 0.1.64",
-    "publishedAt": "2026-07-29T11:38:12+08:00",
+    "version": "0.1.67",
+    "title": "MODORA 0.1.67",
+    "publishedAt": "2026-07-30T06:29:39Z",
     "mandatory": false,
     "notes": [
-      "新增可选的自动同步：同一角色仅启用一个 Mod，启用或停用后立即切回游戏并发送 F10",
-      "优化 F10 同步兼容性：管理器可保持普通权限运行，需要时仅由辅助程序请求一次 Windows 授权",
-      "补充绝区零、崩坏：星穹铁道、原神的官方皮肤头像与皮肤归类",
-      "修复 Phrolova、floro 等文件夹别名无法正确归类到弗洛洛的问题",
-      "修复部分新上架 Mod 因下载文件或校验信息缺失而无法安装的问题",
-      "精简 Mod 详情关闭操作和按键绑定区域，优化头像白底、深色图标、右键菜单及更新弹窗可读性",
-      "本版本继续启用代码混淆保护"
+      "新增“神里美如画”4K 60 FPS 无缝循环动态主题",
+      "主题商店新增动态壁纸分类与视频壁纸播放支持",
+      "新增锁定 Mod 预设，启用时自动恢复并发送 F10",
+      "手动移动过分类的 Mod 不再被后续扫描自动挪走",
+      "右键菜单支持从剪贴板粘贴常见格式的 Mod 预览图",
+      "优化自动同步、游戏切换与各游戏启动器名称"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.64",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.67",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.64/MODORA-Setup-0.1.64-x64.exe",
-    "sha256": "23c69bd4883e192e9a80fde82e40866c27c0852a2c2cafe714ba8fa66f31da9c",
-    "assetSize": 327797204
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.67/MODORA-Setup-0.1.67-x64.exe",
+    "sha256": "a89c0873f2be510ff79e3bd29ce2ed50fc1987f4c784697e5354702aa297d7fd",
+    "assetSize": 437448268
   }
 }
