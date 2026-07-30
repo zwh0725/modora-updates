@@ -3,20 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.68",
-    "title": "MODORA 0.1.68",
-    "publishedAt": "2026-07-30T06:54:02Z",
+    "version": "0.1.69",
+    "title": "MODORA 0.1.69",
+    "publishedAt": "2026-07-30T08:01:36Z",
     "mandatory": false,
     "notes": [
-      "修复“神里美如画”在 Windows 正式版中只显示静态封面的问题",
-      "自定义协议支持 MP4 字节范围请求与连续流式播放",
-      "保留 3840×2160、60 FPS、24 秒无缝循环原视频",
-      "动态主题继续保持静音自动播放与循环"
+      "修复部分 Windows 设备安装后启动时报 details 未定义的问题",
+      "动态主题改为云端按需加载，保留动态效果并将安装程序缩小约 196 MB",
+      "恢复并支持“神里美如画”“囍”和互动分层壁纸的云端播放",
+      "完善云端视频字节范围播放与 MOD 锁定预设自动恢复"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.68",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.69",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.68/MODORA-Setup-0.1.68-x64.exe",
-    "sha256": "7e878564ae1912af4b5474f2737ee9d9bbe2ed756384e3199f3691b75c3ca405",
-    "assetSize": 437449221
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.69/MODORA-Setup-0.1.69-x64.exe",
+    "sha256": "0e4348310a61caaa7eb040ebf7a7695ce89ddb047e8069f95c329107caa28f55",
+    "assetSize": 343430754
   }
 }
