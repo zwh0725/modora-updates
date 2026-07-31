@@ -3,23 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.74",
-    "title": "MODORA 0.1.74",
-    "publishedAt": "2026-07-31T15:26:40Z",
+    "version": "0.1.75",
+    "title": "MODORA 0.1.75",
+    "publishedAt": "2026-07-31T16:25:08Z",
     "mandatory": false,
     "notes": [
-      "修复部分完整 MOD 被拆成 Meshes、Textures、res 等多个列表项的问题",
-      "合并现在以完整外层 MOD 包为边界，统一包含根目录 INI、散文件和全部资源子目录",
-      "手动合并标记拥有最高识别优先级，重新扫描后立即收拢为一个 MOD",
-      "增强对 Meshes0000、Textures、res、res_mf_panel 等常见资源目录的识别",
-      "合并只改变管理器的识别边界，不移动、不重命名任何内部文件",
-      "所有游戏统一下架 MOD 商店入口及商店页面",
-      "主题商店改用各游戏原 MOD 商店图标，侧栏只保留一个商店入口"
+      "左下角入口调整为“游戏MOD下载”，点击后在浏览器中打开 huihuicn.org",
+      "移除旧 VPN 推荐链接及对应的外部链接放行规则",
+      "主题商店在云端内容加载失败时增加网络与 VPN 提示，同时保留本地主题正常使用",
+      "清理仅用于本地演示的“晴滩午梦”硬编码预览，统一使用云端主题数据"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.74",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.75",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.74/MODORA-Setup-0.1.74-x64.exe",
-    "sha256": "2b58dfd5f4bb70368fb3efa66977051b108647f76c341159627d7c61542a703a",
-    "assetSize": 359866332
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.75/MODORA-Setup-0.1.75-x64.exe",
+    "sha256": "a188621726f69754a94e52731bcaf6ed038ff40191fde7656a9bb3c5f9e0823a",
+    "assetSize": 359865477
   }
 }
