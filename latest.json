@@ -3,20 +3,22 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.72",
-    "title": "MODORA 0.1.72",
-    "publishedAt": "2026-07-31T01:41:01Z",
+    "version": "0.1.73",
+    "title": "MODORA 0.1.73",
+    "publishedAt": "2026-07-31T13:13:24Z",
     "mandatory": false,
     "notes": [
-      "优化动态主题数量增多后的主题商店滚动流畅度",
-      "打开主题商店时暂停后台动态视频或分层动画，关闭后自动恢复",
-      "主题封面改为按需加载，屏幕外卡片暂停绘制",
-      "减少卡片逐张模糊造成的 GPU 合成开销，同时保留商店整体玻璃质感"
+      "修复锁定的 Mod 预设在重启电脑后可能失效的问题",
+      "增强 Mod 内容分析和包边界识别，降低完整 Mod 被错误拆成多份的概率",
+      "右键合并 Mod 时自动分析同级文件夹，并推荐以上级文件夹名称合并",
+      "蕾米埃尔目录与 JASM 统一使用 character/remielle，旧 remiel 继续兼容识别",
+      "新旧目录同时存在时，导入、移动和商店安装固定优先使用 JASM 标准目录",
+      "增强角色目录别名匹配，减少第三方管理器命名差异造成的未分类与冲突"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.72",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.73",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.72/MODORA-Setup-0.1.72-x64.exe",
-    "sha256": "54b86a407d1c350b234d91f051daa8b35c0099c6d642e4b706c48335ad908127",
-    "assetSize": 359863137
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.73/MODORA-Setup-0.1.73-x64.exe",
+    "sha256": "18fc784781fbe24eeced8a3f4b8d71339beef0ea62108ffdaa96216e7f8ed68e",
+    "assetSize": 359868283
   }
 }
