@@ -3,22 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.71",
-    "title": "MODORA 0.1.71",
-    "publishedAt": "2026-07-31T00:44:56Z",
+    "version": "0.1.72",
+    "title": "MODORA 0.1.72",
+    "publishedAt": "2026-07-31T01:41:01Z",
     "mandatory": false,
     "notes": [
-      "未绑定启动路径时自动查找 WWMI、ZZMI、SRMI、GIMI 或 EFMI，找不到后可重新搜索或手动选择",
-      "Mod 商店和主题商店支持自动刷新，并在网络恢复后自动重试",
-      "移动 Mod 搜索支持中文、完整拼音和首字母，界面不再显示英文文件夹辅助名",
-      "修复浅色与旧版 Windows WebView 中自动同步开启态文字过暗、渐变和发光失效的问题",
-      "自动同步图标开启后持续旋转，并遵循减少动态效果设置",
-      "增强云端主题缓存统计、清理和损坏缓存自愈"
+      "优化动态主题数量增多后的主题商店滚动流畅度",
+      "打开主题商店时暂停后台动态视频或分层动画，关闭后自动恢复",
+      "主题封面改为按需加载，屏幕外卡片暂停绘制",
+      "减少卡片逐张模糊造成的 GPU 合成开销，同时保留商店整体玻璃质感"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.71",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.72",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.71/MODORA-Setup-0.1.71-x64.exe",
-    "sha256": "b4c59858521ea722d0ad4e0a4ec96c003c4581211aca8b3eb114935e1f48e67d",
-    "assetSize": 359862222
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.72/MODORA-Setup-0.1.72-x64.exe",
+    "sha256": "54b86a407d1c350b234d91f051daa8b35c0099c6d642e4b706c48335ad908127",
+    "assetSize": 359863137
   }
 }
