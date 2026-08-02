@@ -3,20 +3,21 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.75",
-    "title": "MODORA 0.1.75",
-    "publishedAt": "2026-07-31T16:25:08Z",
+    "version": "0.1.76",
+    "title": "MODORA 0.1.76",
+    "publishedAt": "2026-08-02T02:03:05Z",
     "mandatory": false,
     "notes": [
-      "左下角入口调整为“游戏MOD下载”，点击后在浏览器中打开 huihuicn.org",
-      "移除旧 VPN 推荐链接及对应的外部链接放行规则",
-      "主题商店在云端内容加载失败时增加网络与 VPN 提示，同时保留本地主题正常使用",
-      "清理仅用于本地演示的“晴滩午梦”硬编码预览，统一使用云端主题数据"
+      "修复 Windows 非系统盘或中文路径启动时可能白屏的问题",
+      "修复显卡兼容模式重启异常造成的主进程退出问题",
+      "自动刷新与目录扫描改为严格只读，不再意外停用未分类或特殊结构的 Mod",
+      "双击卡片切换启停默认关闭，并确保该行为遵循管理器设置",
+      "加固锁定 Mod 预设的持久保存、重启恢复和重新关联逻辑"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.75",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.76",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.75/MODORA-Setup-0.1.75-x64.exe",
-    "sha256": "a188621726f69754a94e52731bcaf6ed038ff40191fde7656a9bb3c5f9e0823a",
-    "assetSize": 359865477
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.76/MODORA-Setup-0.1.76-x64.exe",
+    "sha256": "c57ba503ea9df63a64ea8a3bd9335d828eaddf20499189f4f774d0c7d3c459d3",
+    "assetSize": 359865252
   }
 }
