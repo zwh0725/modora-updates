@@ -3,19 +3,22 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.77",
-    "title": "MODORA 0.1.77",
-    "publishedAt": "2026-08-02T02:30:41Z",
+    "version": "0.1.78",
+    "title": "MODORA 0.1.78",
+    "publishedAt": "2026-08-02T09:05:08Z",
     "mandatory": false,
     "notes": [
-      "恢复双击 MOD 卡片或列表行启用、停用功能，并默认开启",
-      "修复 0.1.76 升级后双击启停设置被强制关闭的问题",
-      "已安装 0.1.76 的用户升级后会自动恢复双击启停；之后仍可在设置中手动关闭"
+      "新增鸣潮 MOD 修复中心，支持多选 MOD、多选角色及全部角色修复",
+      "内置官方 Wuwa Mod Fixer 3.5.1 与 CFG 3.5.3，并支持修复器和规则库热更新",
+      "修复前自动备份，最近一次修复记录重启电脑或管理器后仍可一键回滚",
+      "鸣潮 MOD 右键菜单新增“修复该 MOD”独立小窗口",
+      "修复中心适配管理器主题，优化字号、角色搜索、开关状态与备份回滚入口",
+      "MOD 修复侧栏使用 36×36 沙漏动画图标，与其他侧栏头像尺寸一致"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.77",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.78",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.77/MODORA-Setup-0.1.77-x64.exe",
-    "sha256": "e1ea1bd9854d92651c3c71f62622e86dd7855a6445fb48c1050af7e3778b0445",
-    "assetSize": 359864888
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.78/MODORA-Setup-0.1.78-x64.exe",
+    "sha256": "e34691f5f1ad10753dc08c11110300ba58d6e8a0ec256c68840d38d6fd0439e1",
+    "assetSize": 362547570
   }
 }
