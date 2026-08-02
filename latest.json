@@ -3,21 +3,19 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.76",
-    "title": "MODORA 0.1.76",
-    "publishedAt": "2026-08-02T02:03:05Z",
+    "version": "0.1.77",
+    "title": "MODORA 0.1.77",
+    "publishedAt": "2026-08-02T02:30:41Z",
     "mandatory": false,
     "notes": [
-      "修复 Windows 非系统盘或中文路径启动时可能白屏的问题",
-      "修复显卡兼容模式重启异常造成的主进程退出问题",
-      "自动刷新与目录扫描改为严格只读，不再意外停用未分类或特殊结构的 Mod",
-      "双击卡片切换启停默认关闭，并确保该行为遵循管理器设置",
-      "加固锁定 Mod 预设的持久保存、重启恢复和重新关联逻辑"
+      "恢复双击 MOD 卡片或列表行启用、停用功能，并默认开启",
+      "修复 0.1.76 升级后双击启停设置被强制关闭的问题",
+      "已安装 0.1.76 的用户升级后会自动恢复双击启停；之后仍可在设置中手动关闭"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.76",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.77",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.76/MODORA-Setup-0.1.76-x64.exe",
-    "sha256": "c57ba503ea9df63a64ea8a3bd9335d828eaddf20499189f4f774d0c7d3c459d3",
-    "assetSize": 359865252
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.77/MODORA-Setup-0.1.77-x64.exe",
+    "sha256": "e1ea1bd9854d92651c3c71f62622e86dd7855a6445fb48c1050af7e3778b0445",
+    "assetSize": 359864888
   }
 }
