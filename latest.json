@@ -3,22 +3,22 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.78",
-    "title": "MODORA 0.1.78",
-    "publishedAt": "2026-08-02T09:05:08Z",
+    "version": "0.1.79",
+    "title": "MODORA 0.1.79",
+    "publishedAt": "2026-08-02T13:34:28Z",
     "mandatory": false,
     "notes": [
-      "新增鸣潮 MOD 修复中心，支持多选 MOD、多选角色及全部角色修复",
-      "内置官方 Wuwa Mod Fixer 3.5.1 与 CFG 3.5.3，并支持修复器和规则库热更新",
-      "修复前自动备份，最近一次修复记录重启电脑或管理器后仍可一键回滚",
-      "鸣潮 MOD 右键菜单新增“修复该 MOD”独立小窗口",
-      "修复中心适配管理器主题，优化字号、角色搜索、开关状态与备份回滚入口",
-      "MOD 修复侧栏使用 36×36 沙漏动画图标，与其他侧栏头像尺寸一致"
+      "MOD 右键菜单新增多套命名预设管理，可保存、立即应用、删除，并选择启用 MOD 时自动恢复的一套",
+      "第一套预设默认启用，也可选择不自动应用；相关选择重启管理器后继续保留",
+      "增强 JASM 切换面板类 MOD 的预设识别，修复保存失败、重启失效及目录变化后无法恢复的问题",
+      "预设恢复通常减少为两次 F10，仅在检测到 XXMI 再次覆盖状态时执行第三次兜底刷新",
+      "主题商店恢复动态背景播放，并缓存主题目录与封面，再次进入时优先显示本地缓存",
+      "修复鸣潮 MOD 修复中心单角色范围被强制选中默认角色的问题"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.78",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.79",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.78/MODORA-Setup-0.1.78-x64.exe",
-    "sha256": "e34691f5f1ad10753dc08c11110300ba58d6e8a0ec256c68840d38d6fd0439e1",
-    "assetSize": 362547570
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.79/MODORA-Setup-0.1.79-x64.exe",
+    "sha256": "47c32f761a4c40fe49943359902cf607d04b84bbbb0d302d6bf94959cdf46d6b",
+    "assetSize": 362480438
   }
 }
