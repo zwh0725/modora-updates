@@ -3,22 +3,22 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.79",
-    "title": "MODORA 0.1.79",
-    "publishedAt": "2026-08-02T13:34:28Z",
+    "version": "0.1.80",
+    "title": "MODORA 0.1.80",
+    "publishedAt": "2026-08-03T13:29:56Z",
     "mandatory": false,
     "notes": [
-      "MOD 右键菜单新增多套命名预设管理，可保存、立即应用、删除，并选择启用 MOD 时自动恢复的一套",
-      "第一套预设默认启用，也可选择不自动应用；相关选择重启管理器后继续保留",
-      "增强 JASM 切换面板类 MOD 的预设识别，修复保存失败、重启失效及目录变化后无法恢复的问题",
-      "预设恢复通常减少为两次 F10，仅在检测到 XXMI 再次覆盖状态时执行第三次兜底刷新",
-      "主题商店恢复动态背景播放，并缓存主题目录与封面，再次进入时优先显示本地缓存",
-      "修复鸣潮 MOD 修复中心单角色范围被强制选中默认角色的问题"
+      "重做大型 3DMigoto、WWMI、XXMI MOD 的多预设识别，按 INI 路径、命名空间和变量精确保存",
+      "支持 persist、persistence、persis、跨命名空间引用和独立 UI 控制文件，正确保存颜色、皮肤与部件状态",
+      "排除运行时、检测和派生变量，避免应用预设后 MOD 消失、状态被覆盖或文件受到污染",
+      "修复保存预设偶尔卡住或无结果的问题，保存成功后自动设为当前启用预设",
+      "修复启用 MOD 后仍恢复初始外观的问题，等待 WWMI 初始化后自动应用预设并刷新",
+      "修复预设异常时可能连带关闭 MOD 的问题，并增强文件变化诊断、安全迁移和完整回滚"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.79",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.80",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.79/MODORA-Setup-0.1.79-x64.exe",
-    "sha256": "47c32f761a4c40fe49943359902cf607d04b84bbbb0d302d6bf94959cdf46d6b",
-    "assetSize": 362480438
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.80/MODORA-Setup-0.1.80-x64.exe",
+    "sha256": "c6953a73a55bb2d51333e673b03deabccc79bce1fb9b3a5eb51659d39ae9cbde",
+    "assetSize": 362487132
   }
 }
