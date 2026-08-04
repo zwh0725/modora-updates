@@ -3,22 +3,21 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.80",
-    "title": "MODORA 0.1.80",
-    "publishedAt": "2026-08-03T13:29:56Z",
+    "version": "0.1.81",
+    "title": "MODORA 0.1.81",
+    "publishedAt": "2026-08-04T09:28:29Z",
     "mandatory": false,
     "notes": [
-      "重做大型 3DMigoto、WWMI、XXMI MOD 的多预设识别，按 INI 路径、命名空间和变量精确保存",
-      "支持 persist、persistence、persis、跨命名空间引用和独立 UI 控制文件，正确保存颜色、皮肤与部件状态",
-      "排除运行时、检测和派生变量，避免应用预设后 MOD 消失、状态被覆盖或文件受到污染",
-      "修复保存预设偶尔卡住或无结果的问题，保存成功后自动设为当前启用预设",
-      "修复启用 MOD 后仍恢复初始外观的问题，等待 WWMI 初始化后自动应用预设并刷新",
-      "修复预设异常时可能连带关闭 MOD 的问题，并增强文件变化诊断、安全迁移和完整回滚"
+      "修复启用绑定预设的 MOD 后仍回到默认外观、必须再次点击立即应用的问题",
+      "新启用 MOD 会等待 XXMI 与作者控制面板初始化完成，再写入并最终加载所选预设",
+      "管理器自定义背景新增动态 GIF、MP4 和 WebM 支持，视频自动静音循环播放",
+      "动态背景继续支持取景、亮度、模糊、遮罩和 UI 透明度调节",
+      "图片与 GIF 最大 32 MB，背景视频最大 256 MB"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.80",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.81",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.80/MODORA-Setup-0.1.80-x64.exe",
-    "sha256": "c6953a73a55bb2d51333e673b03deabccc79bce1fb9b3a5eb51659d39ae9cbde",
-    "assetSize": 362487132
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.81/MODORA-Setup-0.1.81-x64.exe",
+    "sha256": "c269b31e69a4fb3f2050f76215e9ab3a4f66d17d4f1d906a571bfac3f9d8b155",
+    "assetSize": 362487137
   }
 }
