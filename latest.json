@@ -3,21 +3,21 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.81",
-    "title": "MODORA 0.1.81",
-    "publishedAt": "2026-08-04T09:28:29Z",
+    "version": "0.1.82",
+    "title": "MODORA 0.1.82",
+    "publishedAt": "2026-08-06T08:11:39Z",
     "mandatory": false,
     "notes": [
-      "修复启用绑定预设的 MOD 后仍回到默认外观、必须再次点击立即应用的问题",
-      "新启用 MOD 会等待 XXMI 与作者控制面板初始化完成，再写入并最终加载所选预设",
-      "管理器自定义背景新增动态 GIF、MP4 和 WebM 支持，视频自动静音循环播放",
-      "动态背景继续支持取景、亮度、模糊、遮罩和 UI 透明度调节",
-      "图片与 GIF 最大 32 MB，背景视频最大 256 MB"
+      "新增绝区零 MOD 修复，支持单个或多个 MOD、单个或多个角色及全部角色，并提供备份与回滚",
+      "绝区零右键菜单新增修复该 MOD，内置 3.1A 中文修复器；鸣潮与绝区零均按用户实际勾选执行",
+      "优化鸣潮大规模 MOD 修复，支持数量较多的角色和 MOD，并显示实时处理进度",
+      "重构大型 3DMigoto、WWMI、XXMI MOD 预设识别，兼容 UI 控制文件、命名空间和多种持久变量写法",
+      "优化预设自动应用时序、失败诊断、备份和回滚，并新增五款 4K 主题"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.81",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.82",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.81/MODORA-Setup-0.1.81-x64.exe",
-    "sha256": "c269b31e69a4fb3f2050f76215e9ab3a4f66d17d4f1d906a571bfac3f9d8b155",
-    "assetSize": 362487137
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.82/MODORA-Setup-0.1.82-x64.exe",
+    "sha256": "6fa38771bc7013ccc7a8a76108130861806ee0854701793aba780d03b4b82bca",
+    "assetSize": 412876434
   }
 }
