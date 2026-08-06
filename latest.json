@@ -3,21 +3,21 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.82",
-    "title": "MODORA 0.1.82",
-    "publishedAt": "2026-08-06T08:11:39Z",
+    "version": "0.1.83",
+    "title": "MODORA 0.1.83",
+    "publishedAt": "2026-08-06T11:23:51Z",
     "mandatory": false,
     "notes": [
-      "新增绝区零 MOD 修复，支持单个或多个 MOD、单个或多个角色及全部角色，并提供备份与回滚",
-      "绝区零右键菜单新增修复该 MOD，内置 3.1A 中文修复器；鸣潮与绝区零均按用户实际勾选执行",
-      "优化鸣潮大规模 MOD 修复，支持数量较多的角色和 MOD，并显示实时处理进度",
-      "重构大型 3DMigoto、WWMI、XXMI MOD 预设识别，兼容 UI 控制文件、命名空间和多种持久变量写法",
-      "优化预设自动应用时序、失败诊断、备份和回滚，并新增五款 4K 主题"
+      "新增管理器启动动画，启动等待期间显示 MODORA 图标、环形光效与展开过渡",
+      "主题商店新增独立分类“鸣潮动态壁纸”",
+      "新增“穗穗”4K 动态主题，视频资源按需下载并缓存",
+      "优化云端主题明暗模式判断，暗色主题不再错误继承浅色界面样式",
+      "动态主题现在会正确应用取景位置、亮度和模糊参数"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.82",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.83",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.82/MODORA-Setup-0.1.82-x64.exe",
-    "sha256": "6fa38771bc7013ccc7a8a76108130861806ee0854701793aba780d03b4b82bca",
-    "assetSize": 412876434
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.83/MODORA-Setup-0.1.83-x64.exe",
+    "sha256": "a5edeb3fbd7cbd092f198dd388c48135453ecb3ea51030a08845034b466fffd3",
+    "assetSize": 412949959
   }
 }
