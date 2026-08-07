@@ -3,21 +3,21 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.84",
-    "title": "MODORA 0.1.84",
-    "publishedAt": "2026-08-07T09:08:28Z",
+    "version": "0.1.85",
+    "title": "MODORA 0.1.85",
+    "publishedAt": "2026-08-07T13:15:24Z",
     "mandatory": false,
     "notes": [
-      "统一管理器各主题的文字可读性，补齐首页、路径设置和各功能页面的小字与状态文字",
-      "优化 MOD 按键绑定标签和横版、竖版卡片布局",
-      "优化 MOD 修复中的单 MOD 列表，大型库改为分批加载并减少屏幕外绘制",
-      "新增“鸣潮-1”至“鸣潮-6”动态主题与鸣潮动态壁纸分类",
-      "移除管理器启动展开动画，恢复完成后直接显示主界面"
+      "修复 Windows 宽屏关闭 MOD 详情后仍保留空白详情栏的问题",
+      "关闭详情时面板退出与 MOD 列表恢复全宽同步进行，卡片平滑补位且不再连续伸缩",
+      "横版和竖版会按可用宽度自动增加每行数量，不再强制两列或无限放大预览图",
+      "拖动管理器大小时恢复即时排版，不播放卡片换位动画，快速拉伸不会追赶、重叠或乱跳",
+      "优化详情开合的淡入淡出和减速曲线，减少停顿、掉帧与拖尾感"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.84",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.85",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.84/MODORA-Setup-0.1.84-x64.exe",
-    "sha256": "8c5aaa077755168ecc057afbfadc06ff57e3435f0c59e6f0acea9b3ac1990848",
-    "assetSize": 412951164
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.85/MODORA-Setup-0.1.85-x64.exe",
+    "sha256": "52b67c5fcea7beb017ac7885012f404fef9bc38aa2307a5e4986421151d70adc",
+    "assetSize": 412952592
   }
 }
