@@ -3,21 +3,21 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.83",
-    "title": "MODORA 0.1.83",
-    "publishedAt": "2026-08-06T11:23:51Z",
+    "version": "0.1.84",
+    "title": "MODORA 0.1.84",
+    "publishedAt": "2026-08-07T09:08:28Z",
     "mandatory": false,
     "notes": [
-      "新增管理器启动动画，启动等待期间显示 MODORA 图标、环形光效与展开过渡",
-      "主题商店新增独立分类“鸣潮动态壁纸”",
-      "新增“穗穗”4K 动态主题，视频资源按需下载并缓存",
-      "优化云端主题明暗模式判断，暗色主题不再错误继承浅色界面样式",
-      "动态主题现在会正确应用取景位置、亮度和模糊参数"
+      "统一管理器各主题的文字可读性，补齐首页、路径设置和各功能页面的小字与状态文字",
+      "优化 MOD 按键绑定标签和横版、竖版卡片布局",
+      "优化 MOD 修复中的单 MOD 列表，大型库改为分批加载并减少屏幕外绘制",
+      "新增“鸣潮-1”至“鸣潮-6”动态主题与鸣潮动态壁纸分类",
+      "移除管理器启动展开动画，恢复完成后直接显示主界面"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.83",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.84",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.83/MODORA-Setup-0.1.83-x64.exe",
-    "sha256": "a5edeb3fbd7cbd092f198dd388c48135453ecb3ea51030a08845034b466fffd3",
-    "assetSize": 412949959
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.84/MODORA-Setup-0.1.84-x64.exe",
+    "sha256": "8c5aaa077755168ecc057afbfadc06ff57e3435f0c59e6f0acea9b3ac1990848",
+    "assetSize": 412951164
   }
 }
