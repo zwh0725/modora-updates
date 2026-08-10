@@ -3,21 +3,21 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.86",
-    "title": "MODORA 0.1.86",
-    "publishedAt": "2026-08-08T14:26:47Z",
+    "version": "0.1.87",
+    "title": "MODORA 0.1.87",
+    "publishedAt": "2026-08-10T10:51:53Z",
     "mandatory": false,
     "notes": [
-      "修复竖版 MOD 图片在部分窗口宽度下左右露出黑边的问题，卡片预览始终贴边铺满",
-      "优化“已启用”状态标签，恢复主题强调色光点与柔和透明底，在明暗主题中都更清晰",
-      "完成首页、工具栏、小字、详情、菜单与修复页的公共文字可读性整理",
-      "将内置主题、游戏背景和部分角色大图转换为同分辨率 WebP，缩小安装包体积并降低首次加载压力",
-      "异环内置启动器试验已完整回退，正式包不包含相关 EXE、DLL、ASI 或启动模块"
+      "网格列表新增 MOD 修复状态，仅在自动检查判断适合修复时显示“需修复”",
+      "基于完整 WWMI 与 ZZMI 样本库改进 Mod 预设识别，兼容 persist global 等真实声明形式",
+      "共享盘目录枚举、INI 读取、分类与修复检测增加瞬时错误重试和明确诊断",
+      "鸣潮 MOD 修复入口更换为新的角色档案图标并统一侧栏图标视觉尺寸",
+      "绝区零继续保留原修复图标和 3.1A 安全修复入口"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.86",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.87",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.86/MODORA-Setup-0.1.86-x64.exe",
-    "sha256": "90673749901b745cf05d071d1a5abdb442660aa47a8175940e790214c8b14485",
-    "assetSize": 246215982
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.87/MODORA-Setup-0.1.87-x64.exe",
+    "sha256": "d67d906a5db39f3e9ad19c3cac7f4aff1175df14ffdeed393bceb47388ad6e7a",
+    "assetSize": 246220285
   }
 }
