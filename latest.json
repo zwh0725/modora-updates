@@ -3,21 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.87",
-    "title": "MODORA 0.1.87",
-    "publishedAt": "2026-08-10T10:51:53Z",
+    "version": "0.1.88",
+    "title": "MODORA 0.1.88",
+    "publishedAt": "2026-08-13T15:19:13Z",
     "mandatory": false,
     "notes": [
-      "网格列表新增 MOD 修复状态，仅在自动检查判断适合修复时显示“需修复”",
-      "基于完整 WWMI 与 ZZMI 样本库改进 Mod 预设识别，兼容 persist global 等真实声明形式",
-      "共享盘目录枚举、INI 读取、分类与修复检测增加瞬时错误重试和明确诊断",
-      "鸣潮 MOD 修复入口更换为新的角色档案图标并统一侧栏图标视觉尺寸",
-      "绝区零继续保留原修复图标和 3.1A 安全修复入口"
+      "异环新增残虹（Canhong）角色资料、头像、搜索、分类与 MOD 文件夹识别",
+      "异环角色资料与头像支持云端轻量同步，今后新增角色无需升级整个管理器",
+      "云端角色资源会校验文件大小与 SHA-256，断网时继续使用本地资料和成功缓存",
+      "网格列表恢复“MOD 作者”列，并移除自动“需修复”提示和后台检查"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.87",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.88",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.87/MODORA-Setup-0.1.87-x64.exe",
-    "sha256": "d67d906a5db39f3e9ad19c3cac7f4aff1175df14ffdeed393bceb47388ad6e7a",
-    "assetSize": 246220285
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.88/MODORA-Setup-0.1.88-x64.exe",
+    "sha256": "8daa7773a9f56dddaa9c98170f06a23d49a7de93c365d9ec040665c8a1ce1704",
+    "assetSize": 246336685
   }
 }
