@@ -3,20 +3,20 @@
   "appId": "modora-manager",
   "channel": "stable",
   "latest": {
-    "version": "0.1.88",
-    "title": "MODORA 0.1.88",
-    "publishedAt": "2026-08-13T15:19:13Z",
+    "version": "0.1.89",
+    "title": "MODORA 0.1.89",
+    "publishedAt": "2026-08-14T15:04:49Z",
     "mandatory": false,
     "notes": [
-      "异环新增残虹（Canhong）角色资料、头像、搜索、分类与 MOD 文件夹识别",
-      "异环角色资料与头像支持云端轻量同步，今后新增角色无需升级整个管理器",
-      "云端角色资源会校验文件大小与 SHA-256，断网时继续使用本地资料和成功缓存",
-      "网格列表恢复“MOD 作者”列，并移除自动“需修复”提示和后台检查"
+      "修复输入预设名称并点击保存后，预设没有实际创建的问题",
+      "自动刷新游戏状态失败时，只要已有有效状态，仍会正常保存预设",
+      "保存成功或失败的结果会直接显示在预设窗口中，不再被窗口遮挡",
+      "优化预设数据合并与数量上限处理，优先保留最新内容"
     ],
-    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.88",
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.89",
     "assetType": "nsis",
-    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.88/MODORA-Setup-0.1.88-x64.exe",
-    "sha256": "8daa7773a9f56dddaa9c98170f06a23d49a7de93c365d9ec040665c8a1ce1704",
-    "assetSize": 246336685
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.89/MODORA-Setup-0.1.89-x64.exe",
+    "sha256": "2d945b6e2bc89824e48cf8ab624d197d0e3cfcf884fcf715310595df5e2a7377",
+    "assetSize": 246337092
   }
 }
