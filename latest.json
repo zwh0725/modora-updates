@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "appId": "modora-manager",
+  "channel": "stable",
+  "latest": {
+    "version": "0.1.90",
+    "title": "MODORA 0.1.90",
+    "publishedAt": "2026-08-21T16:44:51Z",
+    "mandatory": false,
+    "notes": [
+      "鸣潮 MOD 修复器升级为官方 Wuwa Mod Fixer 3.6.0",
+      "内置离线规则库同步升级为 CFG 3.6.0",
+      "旧用户升级后会直接采用 3.6.0，不会继续停留在 3.5.1",
+      "保留旧版修复器资源，用于必要时排查和回退",
+      "修复器与规则库继续执行文件大小及 SHA-256 完整性校验"
+    ],
+    "releaseUrl": "https://github.com/zwh0725/modora-updates/releases/tag/v0.1.90",
+    "assetType": "nsis",
+    "assetUrl": "https://github.com/zwh0725/modora-updates/releases/download/v0.1.90/MODORA-Setup-0.1.90-x64.exe",
+    "sha256": "30856103cd24a4cfde4cec594f76b780748ba1b5b36e46100a28a0d5ac18580a",
+    "assetSize": 248704201
+  }
+}
